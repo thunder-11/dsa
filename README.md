@@ -14,6 +14,9 @@ dsa/
 │   │   └── 0001_Two_Sum.cpp
 │   └── Medium/
 │       └── 0053_Maximum_Subarray.cpp
+├── Strings/
+│   └── Easy/
+│       └── 0058_Length_of_Last_Word.cpp
 └── README.md
 ```
 
@@ -31,6 +34,7 @@ Solutions are organized as:
 |---|---------|------------|-------|----------|------|-------|
 | 1 | [Two Sum](Arrays/Easy/0001_Two_Sum.cpp) | 🟢 Easy | Array, Hash Table | Hash Map (One-Pass) | O(n) | O(n) |
 | 53 | [Maximum Subarray](Arrays/Medium/0053_Maximum_Subarray.cpp) | 🟡 Medium | Array, DP | Kadane's Algorithm | O(n) | O(1) |
+| 58 | [Length of Last Word](Strings/Easy/0058_Length_of_Last_Word.cpp) | 🟢 Easy | String | Linear Scan | O(n) | O(1) |
 
 ---
 
@@ -39,6 +43,7 @@ Solutions are organized as:
 | Topic | Count |
 |-------|-------|
 | Arrays | 2 |
+| Strings | 1 |
 | Hash Table | 1 |
 | Dynamic Programming | 1 |
 
@@ -85,10 +90,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 1      |
+| 🟢 Easy   | 2      |
 | 🟡 Medium | 1      |
 | 🔴 Hard   | 0      |
-| **Total**  | **2**  |
+| **Total**  | **3**  |
 
 ---
 
