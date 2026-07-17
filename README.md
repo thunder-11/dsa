@@ -16,6 +16,7 @@ dsa/
 │       └── 0053_Maximum_Subarray.cpp
 ├── Strings/
 │   └── Easy/
+│       ├── 0028_Find_the_Index_of_the_First_Occurrence_in_a_String.cpp
 │       └── 0058_Length_of_Last_Word.cpp
 └── README.md
 ```
@@ -34,6 +35,7 @@ Solutions are organized as:
 |---|---------|------------|-------|----------|------|-------|
 | 1 | [Two Sum](Arrays/Easy/0001_Two_Sum.cpp) | 🟢 Easy | Array, Hash Table | Hash Map (One-Pass) | O(n) | O(n) |
 | 53 | [Maximum Subarray](Arrays/Medium/0053_Maximum_Subarray.cpp) | 🟡 Medium | Array, DP | Kadane's Algorithm | O(n) | O(1) |
+| 28 | [Find the Index of the First Occurrence in a String](Strings/Easy/0028_Find_the_Index_of_the_First_Occurrence_in_a_String.cpp) | 🟢 Easy | String, Two Pointers | Brute Force (Sliding Window Match) | O(n*m) | O(1) |
 | 58 | [Length of Last Word](Strings/Easy/0058_Length_of_Last_Word.cpp) | 🟢 Easy | String | Linear Scan | O(n) | O(1) |
 
 ---
@@ -43,7 +45,7 @@ Solutions are organized as:
 | Topic | Count |
 |-------|-------|
 | Arrays | 2 |
-| Strings | 1 |
+| Strings | 2 |
 | Hash Table | 1 |
 | Dynamic Programming | 1 |
 
@@ -90,10 +92,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 2      |
+| 🟢 Easy   | 3      |
 | 🟡 Medium | 1      |
 | 🔴 Hard   | 0      |
-| **Total**  | **3**  |
+| **Total**  | **4**  |
 
 ---
 
