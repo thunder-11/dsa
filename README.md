@@ -11,7 +11,8 @@ Each solution includes a detailed comment header covering the **problem statemen
 dsa/
 ├── Arrays/
 │   ├── Easy/
-│   │   └── 0001_Two_Sum.cpp
+│   │   ├── 0001_Two_Sum.cpp
+│   │   └── 1979_Find_Greatest_Common_Divisor_of_Array.cpp
 │   └── Medium/
 │       └── 0053_Maximum_Subarray.cpp
 ├── Strings/
@@ -35,6 +36,7 @@ Solutions are organized as:
 |---|---------|------------|-------|----------|------|-------|
 | 1 | [Two Sum](Arrays/Easy/0001_Two_Sum.cpp) | 🟢 Easy | Array, Hash Table | Hash Map (One-Pass) | O(n) | O(n) |
 | 53 | [Maximum Subarray](Arrays/Medium/0053_Maximum_Subarray.cpp) | 🟡 Medium | Array, DP | Kadane's Algorithm | O(n) | O(1) |
+| 1979 | [Find Greatest Common Divisor of Array](Arrays/Easy/1979_Find_Greatest_Common_Divisor_of_Array.cpp) | 🟢 Easy | Array, Math | Linear Scan + Euclidean Algorithm | O(n) | O(1) |
 | 28 | [Find the Index of the First Occurrence in a String](Strings/Easy/0028_Find_the_Index_of_the_First_Occurrence_in_a_String.cpp) | 🟢 Easy | String, Two Pointers | Brute Force (Sliding Window Match) | O(n*m) | O(1) |
 | 58 | [Length of Last Word](Strings/Easy/0058_Length_of_Last_Word.cpp) | 🟢 Easy | String | Linear Scan | O(n) | O(1) |
 
@@ -44,10 +46,11 @@ Solutions are organized as:
 
 | Topic | Count |
 |-------|-------|
-| Arrays | 2 |
+| Arrays | 3 |
 | Strings | 2 |
 | Hash Table | 1 |
 | Dynamic Programming | 1 |
+| Math | 1 |
 
 ---
 
@@ -92,10 +95,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 3      |
+| 🟢 Easy   | 4      |
 | 🟡 Medium | 1      |
 | 🔴 Hard   | 0      |
-| **Total**  | **4**  |
+| **Total**  | **5**  |
 
 ---
 
