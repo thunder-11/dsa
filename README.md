@@ -19,6 +19,9 @@ dsa/
 │   └── Easy/
 │       ├── 0028_Find_the_Index_of_the_First_Occurrence_in_a_String.cpp
 │       └── 0058_Length_of_Last_Word.cpp
+├── Math/
+│   └── Easy/
+│       └── 3658_GCD_of_Odd_and_Even_Sums.cpp
 └── README.md
 ```
 
@@ -39,6 +42,7 @@ Solutions are organized as:
 | 1979 | [Find Greatest Common Divisor of Array](Arrays/Easy/1979_Find_Greatest_Common_Divisor_of_Array.cpp) | 🟢 Easy | Array, Math | Linear Scan + Euclidean Algorithm | O(n) | O(1) |
 | 28 | [Find the Index of the First Occurrence in a String](Strings/Easy/0028_Find_the_Index_of_the_First_Occurrence_in_a_String.cpp) | 🟢 Easy | String, Two Pointers | Brute Force (Sliding Window Match) | O(n*m) | O(1) |
 | 58 | [Length of Last Word](Strings/Easy/0058_Length_of_Last_Word.cpp) | 🟢 Easy | String | Linear Scan | O(n) | O(1) |
+| 3658 | [GCD of Odd and Even Sums](Math/Easy/3658_GCD_of_Odd_and_Even_Sums.cpp) | 🟢 Easy | Math, Number Theory | Mathematical Observation | O(1) | O(1) |
 
 ---
 
@@ -50,7 +54,7 @@ Solutions are organized as:
 | Strings | 2 |
 | Hash Table | 1 |
 | Dynamic Programming | 1 |
-| Math | 1 |
+| Math | 2 |
 
 ---
 
@@ -95,10 +99,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 4      |
+| 🟢 Easy   | 5      |
 | 🟡 Medium | 1      |
 | 🔴 Hard   | 0      |
-| **Total**  | **5**  |
+| **Total**  | **6**  |
 
 ---
 
