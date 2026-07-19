@@ -12,6 +12,7 @@ dsa/
 ├── Arrays/
 │   ├── Easy/
 │   │   ├── 0001_Two_Sum.cpp
+│   │   ├── 1732_Find_the_Highest_Altitude.cpp
 │   │   └── 1979_Find_Greatest_Common_Divisor_of_Array.cpp
 │   └── Medium/
 │       └── 0053_Maximum_Subarray.cpp
@@ -21,7 +22,8 @@ dsa/
 │       └── 0058_Length_of_Last_Word.cpp
 ├── Math/
 │   └── Easy/
-│       └── 3658_GCD_of_Odd_and_Even_Sums.cpp
+│       ├── 3658_GCD_of_Odd_and_Even_Sums.cpp
+│       └── 3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.cpp
 └── README.md
 ```
 
@@ -42,7 +44,9 @@ Solutions are organized as:
 | 1979 | [Find Greatest Common Divisor of Array](Arrays/Easy/1979_Find_Greatest_Common_Divisor_of_Array.cpp) | 🟢 Easy | Array, Math | Linear Scan + Euclidean Algorithm | O(n) | O(1) |
 | 28 | [Find the Index of the First Occurrence in a String](Strings/Easy/0028_Find_the_Index_of_the_First_Occurrence_in_a_String.cpp) | 🟢 Easy | String, Two Pointers | Brute Force (Sliding Window Match) | O(n*m) | O(1) |
 | 58 | [Length of Last Word](Strings/Easy/0058_Length_of_Last_Word.cpp) | 🟢 Easy | String | Linear Scan | O(n) | O(1) |
+| 1732 | [Find the Highest Altitude](Arrays/Easy/1732_Find_the_Highest_Altitude.cpp) | 🟢 Easy | Array, Prefix Sum | Prefix Sum | O(n) | O(1) |
 | 3658 | [GCD of Odd and Even Sums](Math/Easy/3658_GCD_of_Odd_and_Even_Sums.cpp) | 🟢 Easy | Math, Number Theory | Mathematical Observation | O(1) | O(1) |
+| 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](Math/Easy/3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.cpp) | 🟢 Easy | Math, String | String Manipulation | O(d) | O(d) |
 
 ---
 
@@ -50,11 +54,12 @@ Solutions are organized as:
 
 | Topic | Count |
 |-------|-------|
-| Arrays | 3 |
+| Arrays | 4 |
 | Strings | 2 |
 | Hash Table | 1 |
 | Dynamic Programming | 1 |
-| Math | 2 |
+| Math | 3 |
+| Prefix Sum | 1 |
 
 ---
 
@@ -99,10 +104,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 5      |
+| 🟢 Easy   | 7      |
 | 🟡 Medium | 1      |
 | 🔴 Hard   | 0      |
-| **Total**  | **6**  |
+| **Total**  | **8**  |
 
 ---
 
