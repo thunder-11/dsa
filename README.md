@@ -15,7 +15,8 @@ dsa/
 │   │   ├── 1732_Find_the_Highest_Altitude.cpp
 │   │   └── 1979_Find_Greatest_Common_Divisor_of_Array.cpp
 │   └── Medium/
-│       └── 0053_Maximum_Subarray.cpp
+│       ├── 0053_Maximum_Subarray.cpp
+│       └── 0054_Spiral_Matrix.cpp
 ├── Strings/
 │   └── Easy/
 │       ├── 0028_Find_the_Index_of_the_First_Occurrence_in_a_String.cpp
@@ -41,6 +42,7 @@ Solutions are organized as:
 |---|---------|------------|-------|----------|------|-------|
 | 1 | [Two Sum](Arrays/Easy/0001_Two_Sum.cpp) | 🟢 Easy | Array, Hash Table | Hash Map (One-Pass) | O(n) | O(n) |
 | 53 | [Maximum Subarray](Arrays/Medium/0053_Maximum_Subarray.cpp) | 🟡 Medium | Array, DP | Kadane's Algorithm | O(n) | O(1) |
+| 54 | [Spiral Matrix](Arrays/Medium/0054_Spiral_Matrix.cpp) | 🟡 Medium | Array, Matrix, Simulation | Four-Boundary Shrinking | O(m*n) | O(1) |
 | 1979 | [Find Greatest Common Divisor of Array](Arrays/Easy/1979_Find_Greatest_Common_Divisor_of_Array.cpp) | 🟢 Easy | Array, Math | Linear Scan + Euclidean Algorithm | O(n) | O(1) |
 | 28 | [Find the Index of the First Occurrence in a String](Strings/Easy/0028_Find_the_Index_of_the_First_Occurrence_in_a_String.cpp) | 🟢 Easy | String, Two Pointers | Brute Force (Sliding Window Match) | O(n*m) | O(1) |
 | 58 | [Length of Last Word](Strings/Easy/0058_Length_of_Last_Word.cpp) | 🟢 Easy | String | Linear Scan | O(n) | O(1) |
@@ -54,7 +56,7 @@ Solutions are organized as:
 
 | Topic | Count |
 |-------|-------|
-| Arrays | 4 |
+| Arrays | 5 |
 | Strings | 2 |
 | Hash Table | 1 |
 | Dynamic Programming | 1 |
@@ -105,9 +107,9 @@ All solutions are written in **C++**.
 | Difficulty | Solved |
 |------------|--------|
 | 🟢 Easy   | 7      |
-| 🟡 Medium | 1      |
+| 🟡 Medium | 2      |
 | 🔴 Hard   | 0      |
-| **Total**  | **8**  |
+| **Total**  | **9**  |
 
 ---
 
