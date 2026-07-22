@@ -37,6 +37,7 @@ public:
             if(ch == ' '){
                 if (len > 0) last = len;
                 len = 0;
+                
                 continue;
             }
             len++;
