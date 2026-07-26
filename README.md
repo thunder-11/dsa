@@ -13,6 +13,7 @@ dsa/
 │   ├── Easy/
 │   │   ├── 0001_Two_Sum.cpp
 │   │   ├── 0066_Plus_One.cpp
+│   │   ├── 0628_Maximum_Product_of_Three_Numbers.cpp
 │   │   ├── 1260_Shift_2D_Grid.cpp
 │   │   ├── 1732_Find_the_Highest_Altitude.cpp
 │   │   └── 1979_Find_Greatest_Common_Divisor_of_Array.cpp
@@ -47,6 +48,7 @@ Solutions are organized as:
 | 53 | [Maximum Subarray](Arrays/Medium/0053_Maximum_Subarray.cpp) | 🟡 Medium | Array, DP | Kadane's Algorithm | O(n) | O(1) |
 | 54 | [Spiral Matrix](Arrays/Medium/0054_Spiral_Matrix.cpp) | 🟡 Medium | Array, Matrix, Simulation | Four-Boundary Shrinking | O(m*n) | O(1) |
 | 66 | [Plus One](Arrays/Easy/0066_Plus_One.cpp) | 🟢 Easy | Array, Math | Reverse Traversal with Carry | O(n) | O(1) |
+| 628 | [Maximum Product of Three Numbers](Arrays/Easy/0628_Maximum_Product_of_Three_Numbers.cpp) | 🟢 Easy | Array, Math, Sorting | Linear Scan Top-3 Max & Bottom-2 Min | O(n) | O(1) |
 | 1260 | [Shift 2D Grid](Arrays/Easy/1260_Shift_2D_Grid.cpp) | 🟢 Easy | Array, Matrix, Simulation | Index Mapping (Flatten + Shift) | O(m*n) | O(m*n) |
 | 1979 | [Find Greatest Common Divisor of Array](Arrays/Easy/1979_Find_Greatest_Common_Divisor_of_Array.cpp) | 🟢 Easy | Array, Math | Linear Scan + Euclidean Algorithm | O(n) | O(1) |
 | 28 | [Find the Index of the First Occurrence in a String](Strings/Easy/0028_Find_the_Index_of_the_First_Occurrence_in_a_String.cpp) | 🟢 Easy | String, Two Pointers | Brute Force (Sliding Window Match) | O(n*m) | O(1) |
@@ -62,7 +64,7 @@ Solutions are organized as:
 
 | Topic | Count |
 |-------|-------|
-| Arrays | 7 |
+| Arrays | 8 |
 | Strings | 2 |
 | Hash Table | 1 |
 | Dynamic Programming | 1 |
@@ -112,10 +114,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 10     |
+| 🟢 Easy   | 11     |
 | 🟡 Medium | 2      |
 | 🔴 Hard   | 0      |
-| **Total**  | **12** |
+| **Total**  | **13** |
 
 ---
 
