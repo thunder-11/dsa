@@ -44,6 +44,7 @@ public:
             push++;
             n -= 8;
         }
+        
         if(n != 0){
             answer += push*n;
         }
