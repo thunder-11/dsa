@@ -13,6 +13,7 @@ dsa/
 │   ├── Easy/
 │   │   ├── 0001_Two_Sum.cpp
 │   │   ├── 0026_Remove_Duplicates_from_Sorted_Array.cpp
+│   │   ├── 0027_Remove_Element.cpp
 │   │   ├── 0066_Plus_One.cpp
 │   │   ├── 0628_Maximum_Product_of_Three_Numbers.cpp
 │   │   ├── 1260_Shift_2D_Grid.cpp
@@ -53,6 +54,7 @@ Solutions are organized as:
 | 1 | [Two Sum](Arrays/Easy/0001_Two_Sum.cpp) | 🟢 Easy | Array, Hash Table | Hash Map (One-Pass) | O(n) | O(n) |
 | 20 | [Valid Parentheses](Stack/Easy/0020_Valid_Parentheses.cpp) | 🟢 Easy | String, Stack | Stack-Based Matching | O(n) | O(n) |
 | 26 | [Remove Duplicates from Sorted Array](Arrays/Easy/0026_Remove_Duplicates_from_Sorted_Array.cpp) | 🟢 Easy | Array, Two Pointers | Two Pointers (Slow & Fast) | O(n) | O(1) |
+| 27 | [Remove Element](Arrays/Easy/0027_Remove_Element.cpp) | 🟢 Easy | Array, Two Pointers | Two Pointers (Overwrite) | O(n) | O(1) |
 | 53 | [Maximum Subarray](Arrays/Medium/0053_Maximum_Subarray.cpp) | 🟡 Medium | Array, DP | Kadane's Algorithm | O(n) | O(1) |
 | 54 | [Spiral Matrix](Arrays/Medium/0054_Spiral_Matrix.cpp) | 🟡 Medium | Array, Matrix, Simulation | Four-Boundary Shrinking | O(m*n) | O(1) |
 | 66 | [Plus One](Arrays/Easy/0066_Plus_One.cpp) | 🟢 Easy | Array, Math | Reverse Traversal with Carry | O(n) | O(1) |
@@ -74,7 +76,7 @@ Solutions are organized as:
 
 | Topic | Count |
 |-------|-------|
-| Arrays | 10 |
+| Arrays | 11 |
 | Strings | 2 |
 | Stack | 1 |
 | Hash Table | 1 |
@@ -126,10 +128,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 15     |
+| 🟢 Easy   | 16     |
 | 🟡 Medium | 2      |
 | 🔴 Hard   | 0      |
-| **Total**  | **17** |
+| **Total**  | **18** |
 
 ---
 
