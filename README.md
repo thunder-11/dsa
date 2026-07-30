@@ -28,6 +28,7 @@ dsa/
 │       └── 0058_Length_of_Last_Word.cpp
 ├── Math/
 │   └── Easy/
+│       ├── 3014_Minimum_Number_of_Pushes_to_Type_Word_I.cpp
 │       ├── 3536_Maximum_Product_of_Two_Digits.cpp
 │       ├── 3658_GCD_of_Odd_and_Even_Sums.cpp
 │       └── 3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.cpp
@@ -62,6 +63,7 @@ Solutions are organized as:
 | 28 | [Find the Index of the First Occurrence in a String](Strings/Easy/0028_Find_the_Index_of_the_First_Occurrence_in_a_String.cpp) | 🟢 Easy | String, Two Pointers | Brute Force (Sliding Window Match) | O(n*m) | O(1) |
 | 58 | [Length of Last Word](Strings/Easy/0058_Length_of_Last_Word.cpp) | 🟢 Easy | String | Linear Scan | O(n) | O(1) |
 | 1732 | [Find the Highest Altitude](Arrays/Easy/1732_Find_the_Highest_Altitude.cpp) | 🟢 Easy | Array, Prefix Sum | Prefix Sum | O(n) | O(1) |
+| 3014 | [Minimum Number of Pushes to Type Word I](Math/Easy/3014_Minimum_Number_of_Pushes_to_Type_Word_I.cpp) | 🟢 Easy | Math, Greedy, String | Greedy Batch Assignment | O(n) | O(1) |
 | 3536 | [Maximum Product of Two Digits](Math/Easy/3536_Maximum_Product_of_Two_Digits.cpp) | 🟢 Easy | Math, String | Linear Scan for Top-2 Maximum | O(d) | O(d) |
 | 3658 | [GCD of Odd and Even Sums](Math/Easy/3658_GCD_of_Odd_and_Even_Sums.cpp) | 🟢 Easy | Math, Number Theory | Mathematical Observation | O(1) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](Math/Easy/3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.cpp) | 🟢 Easy | Math, String | String Manipulation | O(d) | O(d) |
@@ -78,7 +80,7 @@ Solutions are organized as:
 | Hash Table | 1 |
 | Two Pointers | 1 |
 | Dynamic Programming | 1 |
-| Math | 4 |
+| Math | 5 |
 | Prefix Sum | 1 |
 
 ---
@@ -124,10 +126,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 14     |
+| 🟢 Easy   | 15     |
 | 🟡 Medium | 2      |
 | 🔴 Hard   | 0      |
-| **Total**  | **16** |
+| **Total**  | **17** |
 
 ---
 
