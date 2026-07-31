@@ -25,6 +25,7 @@ dsa/
 │       └── 0054_Spiral_Matrix.cpp
 ├── Strings/
 │   └── Easy/
+│       ├── 0014_Longest_Common_Prefix.cpp
 │       ├── 0028_Find_the_Index_of_the_First_Occurrence_in_a_String.cpp
 │       └── 0058_Length_of_Last_Word.cpp
 ├── Math/
@@ -52,6 +53,7 @@ Solutions are organized as:
 | # | Problem | Difficulty | Topic | Approach | Time | Space |
 |---|---------|------------|-------|----------|------|-------|
 | 1 | [Two Sum](Arrays/Easy/0001_Two_Sum.cpp) | 🟢 Easy | Array, Hash Table | Hash Map (One-Pass) | O(n) | O(n) |
+| 14 | [Longest Common Prefix](Strings/Easy/0014_Longest_Common_Prefix.cpp) | 🟢 Easy | String, Trie | Vertical Scanning | O(S) | O(m) |
 | 20 | [Valid Parentheses](Stack/Easy/0020_Valid_Parentheses.cpp) | 🟢 Easy | String, Stack | Stack-Based Matching | O(n) | O(n) |
 | 26 | [Remove Duplicates from Sorted Array](Arrays/Easy/0026_Remove_Duplicates_from_Sorted_Array.cpp) | 🟢 Easy | Array, Two Pointers | Two Pointers (Slow & Fast) | O(n) | O(1) |
 | 27 | [Remove Element](Arrays/Easy/0027_Remove_Element.cpp) | 🟢 Easy | Array, Two Pointers | Two Pointers (Overwrite) | O(n) | O(1) |
@@ -77,7 +79,7 @@ Solutions are organized as:
 | Topic | Count |
 |-------|-------|
 | Arrays | 11 |
-| Strings | 2 |
+| Strings | 3 |
 | Stack | 1 |
 | Hash Table | 1 |
 | Two Pointers | 1 |
@@ -128,10 +130,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 16     |
+| 🟢 Easy   | 17     |
 | 🟡 Medium | 2      |
 | 🔴 Hard   | 0      |
-| **Total**  | **18** |
+| **Total**  | **19** |
 
 ---
 
