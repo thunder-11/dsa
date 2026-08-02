@@ -29,11 +29,14 @@ dsa/
 │       ├── 0028_Find_the_Index_of_the_First_Occurrence_in_a_String.cpp
 │       └── 0058_Length_of_Last_Word.cpp
 ├── Math/
-│   └── Easy/
-│       ├── 3014_Minimum_Number_of_Pushes_to_Type_Word_I.cpp
-│       ├── 3536_Maximum_Product_of_Two_Digits.cpp
-│       ├── 3658_GCD_of_Odd_and_Even_Sums.cpp
-│       └── 3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.cpp
+│   ├── Easy/
+│   │   ├── 0009_Palindrome_Number.cpp
+│   │   ├── 3014_Minimum_Number_of_Pushes_to_Type_Word_I.cpp
+│   │   ├── 3536_Maximum_Product_of_Two_Digits.cpp
+│   │   ├── 3658_GCD_of_Odd_and_Even_Sums.cpp
+│   │   └── 3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.cpp
+│   └── Medium/
+│       └── 0877_Stone_Game.cpp
 ├── Stack/
 │   └── Easy/
 │       └── 0020_Valid_Parentheses.cpp
@@ -53,6 +56,7 @@ Solutions are organized as:
 | # | Problem | Difficulty | Topic | Approach | Time | Space |
 |---|---------|------------|-------|----------|------|-------|
 | 1 | [Two Sum](Arrays/Easy/0001_Two_Sum.cpp) | 🟢 Easy | Array, Hash Table | Hash Map (One-Pass) | O(n) | O(n) |
+| 9 | [Palindrome Number](Math/Easy/0009_Palindrome_Number.cpp) | 🟢 Easy | Math, Two Pointers | String Conversion + Two Pointers | O(d) | O(d) |
 | 14 | [Longest Common Prefix](Strings/Easy/0014_Longest_Common_Prefix.cpp) | 🟢 Easy | String, Trie | Vertical Scanning | O(S) | O(m) |
 | 20 | [Valid Parentheses](Stack/Easy/0020_Valid_Parentheses.cpp) | 🟢 Easy | String, Stack | Stack-Based Matching | O(n) | O(n) |
 | 26 | [Remove Duplicates from Sorted Array](Arrays/Easy/0026_Remove_Duplicates_from_Sorted_Array.cpp) | 🟢 Easy | Array, Two Pointers | Two Pointers (Slow & Fast) | O(n) | O(1) |
@@ -61,6 +65,7 @@ Solutions are organized as:
 | 54 | [Spiral Matrix](Arrays/Medium/0054_Spiral_Matrix.cpp) | 🟡 Medium | Array, Matrix, Simulation | Four-Boundary Shrinking | O(m*n) | O(1) |
 | 66 | [Plus One](Arrays/Easy/0066_Plus_One.cpp) | 🟢 Easy | Array, Math | Reverse Traversal with Carry | O(n) | O(1) |
 | 628 | [Maximum Product of Three Numbers](Arrays/Easy/0628_Maximum_Product_of_Three_Numbers.cpp) | 🟢 Easy | Array, Math, Sorting | Linear Scan Top-3 Max & Bottom-2 Min | O(n) | O(1) |
+| 877 | [Stone Game](Math/Medium/0877_Stone_Game.cpp) | 🟡 Medium | Array, Math, DP, Game Theory | Mathematical Observation | O(1) | O(1) |
 | 1260 | [Shift 2D Grid](Arrays/Easy/1260_Shift_2D_Grid.cpp) | 🟢 Easy | Array, Matrix, Simulation | Index Mapping (Flatten + Shift) | O(m*n) | O(m*n) |
 | 1464 | [Maximum Product of Two Elements in an Array](Arrays/Easy/1464_Maximum_Product_of_Two_Elements_in_an_Array.cpp) | 🟢 Easy | Array, Sorting | Linear Scan Top-2 | O(n) | O(1) |
 | 1979 | [Find Greatest Common Divisor of Array](Arrays/Easy/1979_Find_Greatest_Common_Divisor_of_Array.cpp) | 🟢 Easy | Array, Math | Linear Scan + Euclidean Algorithm | O(n) | O(1) |
@@ -84,7 +89,7 @@ Solutions are organized as:
 | Hash Table | 1 |
 | Two Pointers | 1 |
 | Dynamic Programming | 1 |
-| Math | 5 |
+| Math | 7 |
 | Prefix Sum | 1 |
 
 ---
@@ -130,10 +135,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 17     |
-| 🟡 Medium | 2      |
+| 🟢 Easy   | 18     |
+| 🟡 Medium | 3      |
 | 🔴 Hard   | 0      |
-| **Total**  | **19** |
+| **Total**  | **21** |
 
 ---
 
