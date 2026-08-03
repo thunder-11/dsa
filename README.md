@@ -44,6 +44,9 @@ dsa/
 ├── Stack/
 │   └── Easy/
 │       └── 0020_Valid_Parentheses.cpp
+├── DynamicProgramming/
+│   └── Easy/
+│       └── 0070_Climbing_Stairs.cpp
 └── README.md
 ```
 
@@ -70,6 +73,7 @@ Solutions are organized as:
 | 53 | [Maximum Subarray](Arrays/Medium/0053_Maximum_Subarray.cpp) | 🟡 Medium | Array, DP | Kadane's Algorithm | O(n) | O(1) |
 | 54 | [Spiral Matrix](Arrays/Medium/0054_Spiral_Matrix.cpp) | 🟡 Medium | Array, Matrix, Simulation | Four-Boundary Shrinking | O(m*n) | O(1) |
 | 66 | [Plus One](Arrays/Easy/0066_Plus_One.cpp) | 🟢 Easy | Array, Math | Reverse Traversal with Carry | O(n) | O(1) |
+| 70 | [Climbing Stairs](DynamicProgramming/Easy/0070_Climbing_Stairs.cpp) | 🟢 Easy | Math, DP, Memoization | Space-Optimized Fibonacci | O(n) | O(1) |
 | 628 | [Maximum Product of Three Numbers](Arrays/Easy/0628_Maximum_Product_of_Three_Numbers.cpp) | 🟢 Easy | Array, Math, Sorting | Linear Scan Top-3 Max & Bottom-2 Min | O(n) | O(1) |
 | 680 | [Valid Palindrome II](Strings/Medium/0680_Valid_Palindrome_II.cpp) | 🟡 Medium | String, Two Pointers, Greedy | Two Pointers + Helper Check | O(n) | O(1) |
 | 877 | [Stone Game](Math/Medium/0877_Stone_Game.cpp) | 🟡 Medium | Array, Math, DP, Game Theory | Mathematical Observation | O(1) | O(1) |
@@ -95,7 +99,7 @@ Solutions are organized as:
 | Stack | 1 |
 | Hash Table | 1 |
 | Two Pointers | 1 |
-| Dynamic Programming | 1 |
+| Dynamic Programming | 2 |
 | Math | 8 |
 | Prefix Sum | 1 |
 
@@ -142,10 +146,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 20     |
+| 🟢 Easy   | 21     |
 | 🟡 Medium | 4      |
 | 🔴 Hard   | 0      |
-| **Total**  | **24** |
+| **Total**  | **25** |
 
 ---
 
