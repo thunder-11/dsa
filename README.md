@@ -19,7 +19,8 @@ dsa/
 │   │   ├── 1260_Shift_2D_Grid.cpp
 │   │   ├── 1464_Maximum_Product_of_Two_Elements_in_an_Array.cpp
 │   │   ├── 1732_Find_the_Highest_Altitude.cpp
-│   │   └── 1979_Find_Greatest_Common_Divisor_of_Array.cpp
+│   │   ├── 1979_Find_Greatest_Common_Divisor_of_Array.cpp
+│   │   └── 3731_Find_Missing_Elements.cpp
 │   └── Medium/
 │       ├── 0053_Maximum_Subarray.cpp
 │       └── 0054_Spiral_Matrix.cpp
@@ -46,7 +47,8 @@ dsa/
 │       └── 0020_Valid_Parentheses.cpp
 ├── DynamicProgramming/
 │   └── Easy/
-│       └── 0070_Climbing_Stairs.cpp
+│       ├── 0070_Climbing_Stairs.cpp
+│       └── 0509_Fibonacci_Number.cpp
 └── README.md
 ```
 
@@ -74,6 +76,7 @@ Solutions are organized as:
 | 54 | [Spiral Matrix](Arrays/Medium/0054_Spiral_Matrix.cpp) | 🟡 Medium | Array, Matrix, Simulation | Four-Boundary Shrinking | O(m*n) | O(1) |
 | 66 | [Plus One](Arrays/Easy/0066_Plus_One.cpp) | 🟢 Easy | Array, Math | Reverse Traversal with Carry | O(n) | O(1) |
 | 70 | [Climbing Stairs](DynamicProgramming/Easy/0070_Climbing_Stairs.cpp) | 🟢 Easy | Math, DP, Memoization | Space-Optimized Fibonacci | O(n) | O(1) |
+| 509 | [Fibonacci Number](DynamicProgramming/Easy/0509_Fibonacci_Number.cpp) | 🟢 Easy | Math, DP, Recursion | Recursive (Top-Down) | O(2^n) | O(n) |
 | 628 | [Maximum Product of Three Numbers](Arrays/Easy/0628_Maximum_Product_of_Three_Numbers.cpp) | 🟢 Easy | Array, Math, Sorting | Linear Scan Top-3 Max & Bottom-2 Min | O(n) | O(1) |
 | 680 | [Valid Palindrome II](Strings/Medium/0680_Valid_Palindrome_II.cpp) | 🟡 Medium | String, Two Pointers, Greedy | Two Pointers + Helper Check | O(n) | O(1) |
 | 877 | [Stone Game](Math/Medium/0877_Stone_Game.cpp) | 🟡 Medium | Array, Math, DP, Game Theory | Mathematical Observation | O(1) | O(1) |
@@ -87,6 +90,7 @@ Solutions are organized as:
 | 3536 | [Maximum Product of Two Digits](Math/Easy/3536_Maximum_Product_of_Two_Digits.cpp) | 🟢 Easy | Math, String | Linear Scan for Top-2 Maximum | O(d) | O(d) |
 | 3658 | [GCD of Odd and Even Sums](Math/Easy/3658_GCD_of_Odd_and_Even_Sums.cpp) | 🟢 Easy | Math, Number Theory | Mathematical Observation | O(1) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](Math/Easy/3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.cpp) | 🟢 Easy | Math, String | String Manipulation | O(d) | O(d) |
+| 3731 | [Find Missing Elements](Arrays/Easy/3731_Find_Missing_Elements.cpp) | 🟢 Easy | Array, Hash Table | Range Scan with Linear Search | O(k*n) | O(k) |
 
 ---
 
@@ -94,12 +98,12 @@ Solutions are organized as:
 
 | Topic | Count |
 |-------|-------|
-| Arrays | 11 |
+| Arrays | 12 |
 | Strings | 5 |
 | Stack | 1 |
 | Hash Table | 1 |
 | Two Pointers | 1 |
-| Dynamic Programming | 2 |
+| Dynamic Programming | 3 |
 | Math | 8 |
 | Prefix Sum | 1 |
 
@@ -146,10 +150,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 21     |
+| 🟢 Easy   | 23     |
 | 🟡 Medium | 4      |
 | 🔴 Hard   | 0      |
-| **Total**  | **25** |
+| **Total**  | **27** |
 
 ---
 
