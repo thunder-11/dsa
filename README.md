@@ -35,6 +35,7 @@ dsa/
 ├── Math/
 │   ├── Easy/
 │   │   ├── 0009_Palindrome_Number.cpp
+│   │   ├── 0231_Power_of_Two.cpp
 │   │   ├── 0258_Add_Digits.cpp
 │   │   ├── 3014_Minimum_Number_of_Pushes_to_Type_Word_I.cpp
 │   │   ├── 3536_Maximum_Product_of_Two_Digits.cpp
@@ -69,6 +70,7 @@ Solutions are organized as:
 |---|---------|------------|-------|----------|------|-------|
 | 1 | [Two Sum](Arrays/Easy/0001_Two_Sum.cpp) | 🟢 Easy | Array, Hash Table | Hash Map (One-Pass) | O(n) | O(n) |
 | 19 | [Remove Nth Node From End of List](LinkedList/Medium/0019_Remove_Nth_Node_From_End_of_List.cpp) | 🟡 Medium | Linked List, Two Pointers | Fast & Slow Pointers (One Pass) | O(L) | O(1) |
+| 231 | [Power of Two](Math/Easy/0231_Power_of_Two.cpp) | 🟢 Easy | Math, Bit Manipulation | Bitwise AND Trick | O(1) | O(1) |
 | 9 | [Palindrome Number](Math/Easy/0009_Palindrome_Number.cpp) | 🟢 Easy | Math, Two Pointers | String Conversion + Two Pointers | O(d) | O(d) |
 | 14 | [Longest Common Prefix](Strings/Easy/0014_Longest_Common_Prefix.cpp) | 🟢 Easy | String, Trie | Vertical Scanning | O(S) | O(m) |
 | 20 | [Valid Parentheses](Stack/Easy/0020_Valid_Parentheses.cpp) | 🟢 Easy | String, Stack | Stack-Based Matching | O(n) | O(n) |
@@ -109,7 +111,7 @@ Solutions are organized as:
 | Hash Table | 1 |
 | Two Pointers | 1 |
 | Dynamic Programming | 3 |
-| Math | 8 |
+| Math | 9 |
 | Prefix Sum | 1 |
 
 ---
@@ -155,10 +157,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 23     |
+| 🟢 Easy   | 24     |
 | 🟡 Medium | 5      |
 | 🔴 Hard   | 0      |
-| **Total**  | **28** |
+| **Total**  | **29** |
 
 ---
 
