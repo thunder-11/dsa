@@ -38,6 +38,7 @@ dsa/
 │   │   ├── 0231_Power_of_Two.cpp
 │   │   ├── 0258_Add_Digits.cpp
 │   │   ├── 3014_Minimum_Number_of_Pushes_to_Type_Word_I.cpp
+│   │   ├── 3345_Smallest_Divisible_Digit_Product_I.cpp
 │   │   ├── 3536_Maximum_Product_of_Two_Digits.cpp
 │   │   ├── 3658_GCD_of_Odd_and_Even_Sums.cpp
 │   │   └── 3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.cpp
@@ -52,7 +53,8 @@ dsa/
 │       └── 0509_Fibonacci_Number.cpp
 ├── LinkedList/
 │   └── Medium/
-│       └── 0019_Remove_Nth_Node_From_End_of_List.cpp
+│       ├── 0019_Remove_Nth_Node_From_End_of_List.cpp
+│       └── 0061_Rotate_List.cpp
 └── README.md
 ```
 
@@ -70,6 +72,7 @@ Solutions are organized as:
 |---|---------|------------|-------|----------|------|-------|
 | 1 | [Two Sum](Arrays/Easy/0001_Two_Sum.cpp) | 🟢 Easy | Array, Hash Table | Hash Map (One-Pass) | O(n) | O(n) |
 | 19 | [Remove Nth Node From End of List](LinkedList/Medium/0019_Remove_Nth_Node_From_End_of_List.cpp) | 🟡 Medium | Linked List, Two Pointers | Fast & Slow Pointers (One Pass) | O(L) | O(1) |
+| 61 | [Rotate List](LinkedList/Medium/0061_Rotate_List.cpp) | 🟡 Medium | Linked List, Two Pointers | Make Circular + Break at New Tail | O(n) | O(1) |
 | 231 | [Power of Two](Math/Easy/0231_Power_of_Two.cpp) | 🟢 Easy | Math, Bit Manipulation | Bitwise AND Trick | O(1) | O(1) |
 | 9 | [Palindrome Number](Math/Easy/0009_Palindrome_Number.cpp) | 🟢 Easy | Math, Two Pointers | String Conversion + Two Pointers | O(d) | O(d) |
 | 14 | [Longest Common Prefix](Strings/Easy/0014_Longest_Common_Prefix.cpp) | 🟢 Easy | String, Trie | Vertical Scanning | O(S) | O(m) |
@@ -94,6 +97,7 @@ Solutions are organized as:
 | 1732 | [Find the Highest Altitude](Arrays/Easy/1732_Find_the_Highest_Altitude.cpp) | 🟢 Easy | Array, Prefix Sum | Prefix Sum | O(n) | O(1) |
 | 3014 | [Minimum Number of Pushes to Type Word I](Math/Easy/3014_Minimum_Number_of_Pushes_to_Type_Word_I.cpp) | 🟢 Easy | Math, Greedy, String | Greedy Batch Assignment | O(n) | O(1) |
 | 3536 | [Maximum Product of Two Digits](Math/Easy/3536_Maximum_Product_of_Two_Digits.cpp) | 🟢 Easy | Math, String | Linear Scan for Top-2 Maximum | O(d) | O(d) |
+| 3345 | [Smallest Divisible Digit Product I](Math/Easy/3345_Smallest_Divisible_Digit_Product_I.cpp) | 🟢 Easy | Math, Brute Force | Linear Search | O(k*d) | O(1) |
 | 3658 | [GCD of Odd and Even Sums](Math/Easy/3658_GCD_of_Odd_and_Even_Sums.cpp) | 🟢 Easy | Math, Number Theory | Mathematical Observation | O(1) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](Math/Easy/3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.cpp) | 🟢 Easy | Math, String | String Manipulation | O(d) | O(d) |
 | 3731 | [Find Missing Elements](Arrays/Easy/3731_Find_Missing_Elements.cpp) | 🟢 Easy | Array, Hash Table | Range Scan with Linear Search | O(k*n) | O(k) |
@@ -106,12 +110,12 @@ Solutions are organized as:
 |-------|-------|
 | Arrays | 12 |
 | Strings | 5 |
-| Linked List | 1 |
+| Linked List | 2 |
 | Stack | 1 |
 | Hash Table | 1 |
 | Two Pointers | 1 |
 | Dynamic Programming | 3 |
-| Math | 9 |
+| Math | 10 |
 | Prefix Sum | 1 |
 
 ---
@@ -157,10 +161,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 24     |
-| 🟡 Medium | 5      |
+| 🟢 Easy   | 25     |
+| 🟡 Medium | 6      |
 | 🔴 Hard   | 0      |
-| **Total**  | **29** |
+| **Total**  | **31** |
 
 ---
 
