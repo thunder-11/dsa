@@ -50,6 +50,7 @@ dsa/
 ├── DynamicProgramming/
 │   └── Easy/
 │       ├── 0070_Climbing_Stairs.cpp
+│       ├── 0118_Pascals_Triangle.cpp
 │       └── 0509_Fibonacci_Number.cpp
 ├── LinkedList/
 │   └── Medium/
@@ -85,6 +86,7 @@ Solutions are organized as:
 | 54 | [Spiral Matrix](Arrays/Medium/0054_Spiral_Matrix.cpp) | 🟡 Medium | Array, Matrix, Simulation | Four-Boundary Shrinking | O(m*n) | O(1) |
 | 66 | [Plus One](Arrays/Easy/0066_Plus_One.cpp) | 🟢 Easy | Array, Math | Reverse Traversal with Carry | O(n) | O(1) |
 | 70 | [Climbing Stairs](DynamicProgramming/Easy/0070_Climbing_Stairs.cpp) | 🟢 Easy | Math, DP, Memoization | Space-Optimized Fibonacci | O(n) | O(1) |
+| 118 | [Pascal's Triangle](DynamicProgramming/Easy/0118_Pascals_Triangle.cpp) | 🟢 Easy | Array, DP | DP Row by Row | O(n²) | O(n²) |
 | 509 | [Fibonacci Number](DynamicProgramming/Easy/0509_Fibonacci_Number.cpp) | 🟢 Easy | Math, DP, Recursion | Recursive (Top-Down) | O(2^n) | O(n) |
 | 628 | [Maximum Product of Three Numbers](Arrays/Easy/0628_Maximum_Product_of_Three_Numbers.cpp) | 🟢 Easy | Array, Math, Sorting | Linear Scan Top-3 Max & Bottom-2 Min | O(n) | O(1) |
 | 680 | [Valid Palindrome II](Strings/Medium/0680_Valid_Palindrome_II.cpp) | 🟡 Medium | String, Two Pointers, Greedy | Two Pointers + Helper Check | O(n) | O(1) |
@@ -114,7 +116,7 @@ Solutions are organized as:
 | Stack | 1 |
 | Hash Table | 1 |
 | Two Pointers | 1 |
-| Dynamic Programming | 3 |
+| Dynamic Programming | 4 |
 | Math | 10 |
 | Prefix Sum | 1 |
 
@@ -161,10 +163,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 25     |
+| 🟢 Easy   | 26     |
 | 🟡 Medium | 6      |
 | 🔴 Hard   | 0      |
-| **Total**  | **31** |
+| **Total**  | **32** |
 
 ---
 
