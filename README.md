@@ -20,7 +20,8 @@ dsa/
 │   │   ├── 1464_Maximum_Product_of_Two_Elements_in_an_Array.cpp
 │   │   ├── 1732_Find_the_Highest_Altitude.cpp
 │   │   ├── 1979_Find_Greatest_Common_Divisor_of_Array.cpp
-│   │   └── 3731_Find_Missing_Elements.cpp
+│   │   ├── 3731_Find_Missing_Elements.cpp
+│   │   └── 3895_Count_Digit_Appearances.cpp
 │   └── Medium/
 │       ├── 0053_Maximum_Subarray.cpp
 │       └── 0054_Spiral_Matrix.cpp
@@ -37,6 +38,7 @@ dsa/
 │   │   ├── 0009_Palindrome_Number.cpp
 │   │   ├── 0231_Power_of_Two.cpp
 │   │   ├── 0258_Add_Digits.cpp
+│   │   ├── 1323_Maximum_69_Number.cpp
 │   │   ├── 3014_Minimum_Number_of_Pushes_to_Type_Word_I.cpp
 │   │   ├── 3345_Smallest_Divisible_Digit_Product_I.cpp
 │   │   ├── 3536_Maximum_Product_of_Two_Digits.cpp
@@ -75,6 +77,7 @@ Solutions are organized as:
 | 19 | [Remove Nth Node From End of List](LinkedList/Medium/0019_Remove_Nth_Node_From_End_of_List.cpp) | 🟡 Medium | Linked List, Two Pointers | Fast & Slow Pointers (One Pass) | O(L) | O(1) |
 | 61 | [Rotate List](LinkedList/Medium/0061_Rotate_List.cpp) | 🟡 Medium | Linked List, Two Pointers | Make Circular + Break at New Tail | O(n) | O(1) |
 | 231 | [Power of Two](Math/Easy/0231_Power_of_Two.cpp) | 🟢 Easy | Math, Bit Manipulation | Bitwise AND Trick | O(1) | O(1) |
+| 1323 | [Maximum 69 Number](Math/Easy/1323_Maximum_69_Number.cpp) | 🟢 Easy | Math, Greedy | Greedy — First 6 to 9 | O(d) | O(d) |
 | 9 | [Palindrome Number](Math/Easy/0009_Palindrome_Number.cpp) | 🟢 Easy | Math, Two Pointers | String Conversion + Two Pointers | O(d) | O(d) |
 | 14 | [Longest Common Prefix](Strings/Easy/0014_Longest_Common_Prefix.cpp) | 🟢 Easy | String, Trie | Vertical Scanning | O(S) | O(m) |
 | 20 | [Valid Parentheses](Stack/Easy/0020_Valid_Parentheses.cpp) | 🟢 Easy | String, Stack | Stack-Based Matching | O(n) | O(n) |
@@ -103,6 +106,7 @@ Solutions are organized as:
 | 3658 | [GCD of Odd and Even Sums](Math/Easy/3658_GCD_of_Odd_and_Even_Sums.cpp) | 🟢 Easy | Math, Number Theory | Mathematical Observation | O(1) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](Math/Easy/3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.cpp) | 🟢 Easy | Math, String | String Manipulation | O(d) | O(d) |
 | 3731 | [Find Missing Elements](Arrays/Easy/3731_Find_Missing_Elements.cpp) | 🟢 Easy | Array, Hash Table | Range Scan with Linear Search | O(k*n) | O(k) |
+| 3895 | [Count Digit Appearances](Arrays/Easy/3895_Count_Digit_Appearances.cpp) | 🟢 Easy | Array, Math | Digit Extraction | O(n*d) | O(1) |
 
 ---
 
@@ -110,14 +114,14 @@ Solutions are organized as:
 
 | Topic | Count |
 |-------|-------|
-| Arrays | 12 |
+| Arrays | 13 |
 | Strings | 5 |
 | Linked List | 2 |
 | Stack | 1 |
 | Hash Table | 1 |
 | Two Pointers | 1 |
 | Dynamic Programming | 4 |
-| Math | 10 |
+| Math | 11 |
 | Prefix Sum | 1 |
 
 ---
@@ -163,10 +167,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 26     |
+| 🟢 Easy   | 28     |
 | 🟡 Medium | 6      |
 | 🔴 Hard   | 0      |
-| **Total**  | **32** |
+| **Total**  | **34** |
 
 ---
 
