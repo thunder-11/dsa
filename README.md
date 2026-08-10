@@ -15,6 +15,7 @@ dsa/
 │   │   ├── 0026_Remove_Duplicates_from_Sorted_Array.cpp
 │   │   ├── 0027_Remove_Element.cpp
 │   │   ├── 0066_Plus_One.cpp
+│   │   ├── 0121_Best_Time_to_Buy_and_Sell_Stock.cpp
 │   │   ├── 0628_Maximum_Product_of_Three_Numbers.cpp
 │   │   ├── 1260_Shift_2D_Grid.cpp
 │   │   ├── 1464_Maximum_Product_of_Two_Elements_in_an_Array.cpp
@@ -24,7 +25,8 @@ dsa/
 │   │   └── 3895_Count_Digit_Appearances.cpp
 │   └── Medium/
 │       ├── 0053_Maximum_Subarray.cpp
-│       └── 0054_Spiral_Matrix.cpp
+│       ├── 0054_Spiral_Matrix.cpp
+│       └── 3282_Reach_End_of_Array_With_Max_Score.cpp
 ├── Strings/
 │   ├── Easy/
 │   │   ├── 0014_Longest_Common_Prefix.cpp
@@ -76,6 +78,7 @@ Solutions are organized as:
 | 1 | [Two Sum](Arrays/Easy/0001_Two_Sum.cpp) | 🟢 Easy | Array, Hash Table | Hash Map (One-Pass) | O(n) | O(n) |
 | 19 | [Remove Nth Node From End of List](LinkedList/Medium/0019_Remove_Nth_Node_From_End_of_List.cpp) | 🟡 Medium | Linked List, Two Pointers | Fast & Slow Pointers (One Pass) | O(L) | O(1) |
 | 61 | [Rotate List](LinkedList/Medium/0061_Rotate_List.cpp) | 🟡 Medium | Linked List, Two Pointers | Make Circular + Break at New Tail | O(n) | O(1) |
+| 121 | [Best Time to Buy and Sell Stock](Arrays/Easy/0121_Best_Time_to_Buy_and_Sell_Stock.cpp) | 🟢 Easy | Array, DP, Greedy | Greedy Running Minimum | O(n) | O(1) |
 | 231 | [Power of Two](Math/Easy/0231_Power_of_Two.cpp) | 🟢 Easy | Math, Bit Manipulation | Bitwise AND Trick | O(1) | O(1) |
 | 1323 | [Maximum 69 Number](Math/Easy/1323_Maximum_69_Number.cpp) | 🟢 Easy | Math, Greedy | Greedy — First 6 to 9 | O(d) | O(d) |
 | 9 | [Palindrome Number](Math/Easy/0009_Palindrome_Number.cpp) | 🟢 Easy | Math, Two Pointers | String Conversion + Two Pointers | O(d) | O(d) |
@@ -103,6 +106,7 @@ Solutions are organized as:
 | 3014 | [Minimum Number of Pushes to Type Word I](Math/Easy/3014_Minimum_Number_of_Pushes_to_Type_Word_I.cpp) | 🟢 Easy | Math, Greedy, String | Greedy Batch Assignment | O(n) | O(1) |
 | 3536 | [Maximum Product of Two Digits](Math/Easy/3536_Maximum_Product_of_Two_Digits.cpp) | 🟢 Easy | Math, String | Linear Scan for Top-2 Maximum | O(d) | O(d) |
 | 3345 | [Smallest Divisible Digit Product I](Math/Easy/3345_Smallest_Divisible_Digit_Product_I.cpp) | 🟢 Easy | Math, Brute Force | Linear Search | O(k*d) | O(1) |
+| 3282 | [Reach End of Array With Max Score](Arrays/Medium/3282_Reach_End_of_Array_With_Max_Score.cpp) | 🟡 Medium | Array, Greedy | Greedy Running Maximum | O(n) | O(1) |
 | 3658 | [GCD of Odd and Even Sums](Math/Easy/3658_GCD_of_Odd_and_Even_Sums.cpp) | 🟢 Easy | Math, Number Theory | Mathematical Observation | O(1) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](Math/Easy/3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.cpp) | 🟢 Easy | Math, String | String Manipulation | O(d) | O(d) |
 | 3731 | [Find Missing Elements](Arrays/Easy/3731_Find_Missing_Elements.cpp) | 🟢 Easy | Array, Hash Table | Range Scan with Linear Search | O(k*n) | O(k) |
@@ -114,7 +118,7 @@ Solutions are organized as:
 
 | Topic | Count |
 |-------|-------|
-| Arrays | 13 |
+| Arrays | 15 |
 | Strings | 5 |
 | Linked List | 2 |
 | Stack | 1 |
@@ -167,10 +171,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 28     |
-| 🟡 Medium | 6      |
+| 🟢 Easy   | 29     |
+| 🟡 Medium | 7      |
 | 🔴 Hard   | 0      |
-| **Total**  | **34** |
+| **Total**  | **36** |
 
 ---
 
