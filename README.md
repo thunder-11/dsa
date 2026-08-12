@@ -59,6 +59,9 @@ dsa/
 │       ├── 0118_Pascals_Triangle.cpp
 │       └── 0509_Fibonacci_Number.cpp
 ├── LinkedList/
+│   ├── Easy/
+│   │   ├── 0141_Linked_List_Cycle.cpp
+│   │   └── 0876_Middle_of_the_Linked_List.cpp
 │   └── Medium/
 │       ├── 0019_Remove_Nth_Node_From_End_of_List.cpp
 │       └── 0061_Rotate_List.cpp
@@ -80,7 +83,9 @@ Solutions are organized as:
 | 1 | [Two Sum](Arrays/Easy/0001_Two_Sum.cpp) | 🟢 Easy | Array, Hash Table | Hash Map (One-Pass) | O(n) | O(n) |
 | 13 | [Roman to Integer](Strings/Easy/0013_Roman_to_Integer.cpp) | 🟢 Easy | String, Math | Linear Scan with Lookahead | O(n) | O(1) |
 | 19 | [Remove Nth Node From End of List](LinkedList/Medium/0019_Remove_Nth_Node_From_End_of_List.cpp) | 🟡 Medium | Linked List, Two Pointers | Fast & Slow Pointers (One Pass) | O(L) | O(1) |
+| 21 | [Merge Two Sorted Lists](LinkedList/Easy/0021_Merge_Two_Sorted_Lists.cpp) | 🟢 Easy | Linked List, Recursion | Iterative Merge with Dummy Head | O(m+n) | O(1) |
 | 61 | [Rotate List](LinkedList/Medium/0061_Rotate_List.cpp) | 🟡 Medium | Linked List, Two Pointers | Make Circular + Break at New Tail | O(n) | O(1) |
+| 141 | [Linked List Cycle](LinkedList/Easy/0141_Linked_List_Cycle.cpp) | 🟢 Easy | Linked List, Two Pointers | Floyd's Cycle Detection | O(n) | O(1) |
 | 121 | [Best Time to Buy and Sell Stock](Arrays/Easy/0121_Best_Time_to_Buy_and_Sell_Stock.cpp) | 🟢 Easy | Array, DP, Greedy | Greedy Running Minimum | O(n) | O(1) |
 | 231 | [Power of Two](Math/Easy/0231_Power_of_Two.cpp) | 🟢 Easy | Math, Bit Manipulation | Bitwise AND Trick | O(1) | O(1) |
 | 1323 | [Maximum 69 Number](Math/Easy/1323_Maximum_69_Number.cpp) | 🟢 Easy | Math, Greedy | Greedy — First 6 to 9 | O(d) | O(d) |
@@ -97,6 +102,7 @@ Solutions are organized as:
 | 70 | [Climbing Stairs](DynamicProgramming/Easy/0070_Climbing_Stairs.cpp) | 🟢 Easy | Math, DP, Memoization | Space-Optimized Fibonacci | O(n) | O(1) |
 | 118 | [Pascal's Triangle](DynamicProgramming/Easy/0118_Pascals_Triangle.cpp) | 🟢 Easy | Array, DP | DP Row by Row | O(n²) | O(n²) |
 | 509 | [Fibonacci Number](DynamicProgramming/Easy/0509_Fibonacci_Number.cpp) | 🟢 Easy | Math, DP, Recursion | Recursive (Top-Down) | O(2^n) | O(n) |
+| 876 | [Middle of the Linked List](LinkedList/Easy/0876_Middle_of_the_Linked_List.cpp) | 🟢 Easy | Linked List, Two Pointers | Fast & Slow Pointers | O(n) | O(1) |
 | 628 | [Maximum Product of Three Numbers](Arrays/Easy/0628_Maximum_Product_of_Three_Numbers.cpp) | 🟢 Easy | Array, Math, Sorting | Linear Scan Top-3 Max & Bottom-2 Min | O(n) | O(1) |
 | 680 | [Valid Palindrome II](Strings/Medium/0680_Valid_Palindrome_II.cpp) | 🟡 Medium | String, Two Pointers, Greedy | Two Pointers + Helper Check | O(n) | O(1) |
 | 877 | [Stone Game](Math/Medium/0877_Stone_Game.cpp) | 🟡 Medium | Array, Math, DP, Game Theory | Mathematical Observation | O(1) | O(1) |
@@ -124,7 +130,7 @@ Solutions are organized as:
 |-------|-------|
 | Arrays | 16 |
 | Strings | 7 |
-| Linked List | 2 |
+| Linked List | 4 |
 | Stack | 1 |
 | Hash Table | 1 |
 | Two Pointers | 1 |
@@ -175,10 +181,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 31     |
+| 🟢 Easy   | 33     |
 | 🟡 Medium | 7      |
 | 🔴 Hard   | 0      |
-| **Total**  | **38** |
+| **Total**  | **40** |
 
 ---
 
