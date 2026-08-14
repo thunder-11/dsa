@@ -34,7 +34,8 @@ dsa/
 │   │   ├── 0014_Longest_Common_Prefix.cpp
 │   │   ├── 0028_Find_the_Index_of_the_First_Occurrence_in_a_String.cpp
 │   │   ├── 0058_Length_of_Last_Word.cpp
-│   │   └── 0125_Valid_Palindrome.cpp
+│   │   ├── 0125_Valid_Palindrome.cpp
+│   │   └── 0884_Uncommon_Words_from_Two_Sentences.cpp
 │   └── Medium/
 │       └── 0680_Valid_Palindrome_II.cpp
 ├── Math/
@@ -61,6 +62,7 @@ dsa/
 ├── LinkedList/
 │   ├── Easy/
 │   │   ├── 0021_Merge_Two_Sorted_Lists.cpp
+│   │   ├── 0083_Remove_Duplicates_from_Sorted_List.cpp
 │   │   ├── 0141_Linked_List_Cycle.cpp
 │   │   └── 0876_Middle_of_the_Linked_List.cpp
 │   └── Medium/
@@ -87,6 +89,7 @@ Solutions are organized as:
 | 19 | [Remove Nth Node From End of List](LinkedList/Medium/0019_Remove_Nth_Node_From_End_of_List.cpp) | 🟡 Medium | Linked List, Two Pointers | Fast & Slow Pointers (One Pass) | O(L) | O(1) |
 | 21 | [Merge Two Sorted Lists](LinkedList/Easy/0021_Merge_Two_Sorted_Lists.cpp) | 🟢 Easy | Linked List, Recursion | Iterative Merge with Dummy Head | O(m+n) | O(1) |
 | 61 | [Rotate List](LinkedList/Medium/0061_Rotate_List.cpp) | 🟡 Medium | Linked List, Two Pointers | Make Circular + Break at New Tail | O(n) | O(1) |
+| 83 | [Remove Duplicates from Sorted List](LinkedList/Easy/0083_Remove_Duplicates_from_Sorted_List.cpp) | 🟢 Easy | Linked List, Two Pointers | Iterative In-Place Skip | O(n) | O(1) |
 | 141 | [Linked List Cycle](LinkedList/Easy/0141_Linked_List_Cycle.cpp) | 🟢 Easy | Linked List, Two Pointers | Floyd's Cycle Detection | O(n) | O(1) |
 | 142 | [Linked List Cycle II](LinkedList/Medium/0142_Linked_List_Cycle_II.cpp) | 🟡 Medium | Linked List, Two Pointers | Floyd's Two-Phase Detection | O(n) | O(1) |
 | 121 | [Best Time to Buy and Sell Stock](Arrays/Easy/0121_Best_Time_to_Buy_and_Sell_Stock.cpp) | 🟢 Easy | Array, DP, Greedy | Greedy Running Minimum | O(n) | O(1) |
@@ -123,6 +126,7 @@ Solutions are organized as:
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](Math/Easy/3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.cpp) | 🟢 Easy | Math, String | String Manipulation | O(d) | O(d) |
 | 3731 | [Find Missing Elements](Arrays/Easy/3731_Find_Missing_Elements.cpp) | 🟢 Easy | Array, Hash Table | Range Scan with Linear Search | O(k*n) | O(k) |
 | 3895 | [Count Digit Appearances](Arrays/Easy/3895_Count_Digit_Appearances.cpp) | 🟢 Easy | Array, Math | Digit Extraction | O(n*d) | O(1) |
+| 884 | [Uncommon Words from Two Sentences](Strings/Easy/0884_Uncommon_Words_from_Two_Sentences.cpp) | 🟢 Easy | String, Hash Table | Frequency Map | O(n+m) | O(k) |
 | 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](Arrays/Easy/2996_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum.cpp) | 🟢 Easy | Array, Hash Table | Hash Set + Prefix Sum | O(n) | O(n) |
 
 ---
@@ -132,8 +136,8 @@ Solutions are organized as:
 | Topic | Count |
 |-------|-------|
 | Arrays | 16 |
-| Strings | 7 |
-| Linked List | 6 |
+| Strings | 8 |
+| Linked List | 7 |
 | Stack | 1 |
 | Hash Table | 1 |
 | Two Pointers | 1 |
@@ -184,10 +188,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 34     |
+| 🟢 Easy   | 36     |
 | 🟡 Medium | 8      |
 | 🔴 Hard   | 0      |
-| **Total**  | **42** |
+| **Total**  | **44** |
 
 ---
 
