@@ -64,6 +64,8 @@ dsa/
 │   │   ├── 0021_Merge_Two_Sorted_Lists.cpp
 │   │   ├── 0083_Remove_Duplicates_from_Sorted_List.cpp
 │   │   ├── 0141_Linked_List_Cycle.cpp
+│   │   ├── 0203_Remove_Linked_List_Elements.cpp
+│   │   ├── 0206_Reverse_Linked_List.cpp
 │   │   └── 0876_Middle_of_the_Linked_List.cpp
 │   └── Medium/
 │       ├── 0019_Remove_Nth_Node_From_End_of_List.cpp
@@ -92,6 +94,8 @@ Solutions are organized as:
 | 83 | [Remove Duplicates from Sorted List](LinkedList/Easy/0083_Remove_Duplicates_from_Sorted_List.cpp) | 🟢 Easy | Linked List, Two Pointers | Iterative In-Place Skip | O(n) | O(1) |
 | 141 | [Linked List Cycle](LinkedList/Easy/0141_Linked_List_Cycle.cpp) | 🟢 Easy | Linked List, Two Pointers | Floyd's Cycle Detection | O(n) | O(1) |
 | 142 | [Linked List Cycle II](LinkedList/Medium/0142_Linked_List_Cycle_II.cpp) | 🟡 Medium | Linked List, Two Pointers | Floyd's Two-Phase Detection | O(n) | O(1) |
+| 203 | [Remove Linked List Elements](LinkedList/Easy/0203_Remove_Linked_List_Elements.cpp) | 🟢 Easy | Linked List, Recursion | Iterative with Dummy Head | O(n) | O(1) |
+| 206 | [Reverse Linked List](LinkedList/Easy/0206_Reverse_Linked_List.cpp) | 🟢 Easy | Linked List, Recursion | Iterative Three-Pointer Reversal | O(n) | O(1) |
 | 121 | [Best Time to Buy and Sell Stock](Arrays/Easy/0121_Best_Time_to_Buy_and_Sell_Stock.cpp) | 🟢 Easy | Array, DP, Greedy | Greedy Running Minimum | O(n) | O(1) |
 | 231 | [Power of Two](Math/Easy/0231_Power_of_Two.cpp) | 🟢 Easy | Math, Bit Manipulation | Bitwise AND Trick | O(1) | O(1) |
 | 1323 | [Maximum 69 Number](Math/Easy/1323_Maximum_69_Number.cpp) | 🟢 Easy | Math, Greedy | Greedy — First 6 to 9 | O(d) | O(d) |
@@ -137,7 +141,7 @@ Solutions are organized as:
 |-------|-------|
 | Arrays | 16 |
 | Strings | 8 |
-| Linked List | 7 |
+| Linked List | 9 |
 | Stack | 1 |
 | Hash Table | 1 |
 | Two Pointers | 1 |
@@ -188,10 +192,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 36     |
+| 🟢 Easy   | 38     |
 | 🟡 Medium | 8      |
 | 🔴 Hard   | 0      |
-| **Total**  | **44** |
+| **Total**  | **46** |
 
 ---
 
