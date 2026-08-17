@@ -68,11 +68,13 @@ dsa/
 │   │   ├── 0203_Remove_Linked_List_Elements.cpp
 │   │   ├── 0206_Reverse_Linked_List.cpp
 │   │   ├── 0234_Palindrome_Linked_List.cpp
-│   │   └── 0876_Middle_of_the_Linked_List.cpp
+│   │   ├── 0876_Middle_of_the_Linked_List.cpp
+│   │   └── 1290_Convert_Binary_Number_in_a_Linked_List_to_Integer.cpp
 │   └── Medium/
 │       ├── 0019_Remove_Nth_Node_From_End_of_List.cpp
 │       ├── 0061_Rotate_List.cpp
-│       └── 0142_Linked_List_Cycle_II.cpp
+│       ├── 0142_Linked_List_Cycle_II.cpp
+│       └── 0237_Delete_Node_in_a_Linked_List.cpp
 └── README.md
 ```
 
@@ -136,6 +138,8 @@ Solutions are organized as:
 | 3895 | [Count Digit Appearances](Arrays/Easy/3895_Count_Digit_Appearances.cpp) | 🟢 Easy | Array, Math | Digit Extraction | O(n*d) | O(1) |
 | 884 | [Uncommon Words from Two Sentences](Strings/Easy/0884_Uncommon_Words_from_Two_Sentences.cpp) | 🟢 Easy | String, Hash Table | Frequency Map | O(n+m) | O(k) |
 | 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](Arrays/Easy/2996_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum.cpp) | 🟢 Easy | Array, Hash Table | Hash Set + Prefix Sum | O(n) | O(n) |
+| 1290 | [Convert Binary Number in a Linked List to Integer](LinkedList/Easy/1290_Convert_Binary_Number_in_a_Linked_List_to_Integer.cpp) | 🟢 Easy | Linked List, Math | Base-2 Horner's Accumulation | O(n) | O(1) |
+| 237 | [Delete Node in a Linked List](LinkedList/Medium/0237_Delete_Node_in_a_Linked_List.cpp) | 🟡 Medium | Linked List | Value Copy & Next Bypass | O(1) | O(1) |
 
 ---
 
@@ -145,7 +149,7 @@ Solutions are organized as:
 |-------|-------|
 | Arrays | 17 |
 | Strings | 8 |
-| Linked List | 10 |
+| Linked List | 12 |
 | Stack | 1 |
 | Hash Table | 1 |
 | Two Pointers | 1 |
@@ -196,10 +200,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 40     |
-| 🟡 Medium | 8      |
+| 🟢 Easy   | 41     |
+| 🟡 Medium | 9      |
 | 🔴 Hard   | 0      |
-| **Total**  | **48** |
+| **Total**  | **50** |
 
 ---
 
