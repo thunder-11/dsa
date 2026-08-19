@@ -60,6 +60,7 @@ dsa/
 │   └── Easy/
 │       ├── 0070_Climbing_Stairs.cpp
 │       ├── 0118_Pascals_Triangle.cpp
+│       ├── 0119_Pascals_Triangle_II.cpp
 │       └── 0509_Fibonacci_Number.cpp
 ├── LinkedList/
 │   ├── Easy/
@@ -119,6 +120,7 @@ Solutions are organized as:
 | 66 | [Plus One](Arrays/Easy/0066_Plus_One.cpp) | 🟢 Easy | Array, Math | Reverse Traversal with Carry | O(n) | O(1) |
 | 70 | [Climbing Stairs](DynamicProgramming/Easy/0070_Climbing_Stairs.cpp) | 🟢 Easy | Math, DP, Memoization | Space-Optimized Fibonacci | O(n) | O(1) |
 | 118 | [Pascal's Triangle](DynamicProgramming/Easy/0118_Pascals_Triangle.cpp) | 🟢 Easy | Array, DP | DP Row by Row | O(n²) | O(n²) |
+| 119 | [Pascal's Triangle II](DynamicProgramming/Easy/0119_Pascals_Triangle_II.cpp) | 🟢 Easy | Array, DP | Build All Rows Up To rowIndex | O(n²) | O(n²) |
 | 509 | [Fibonacci Number](DynamicProgramming/Easy/0509_Fibonacci_Number.cpp) | 🟢 Easy | Math, DP, Recursion | Recursive (Top-Down) | O(2^n) | O(n) |
 | 876 | [Middle of the Linked List](LinkedList/Easy/0876_Middle_of_the_Linked_List.cpp) | 🟢 Easy | Linked List, Two Pointers | Fast & Slow Pointers | O(n) | O(1) |
 | 628 | [Maximum Product of Three Numbers](Arrays/Easy/0628_Maximum_Product_of_Three_Numbers.cpp) | 🟢 Easy | Array, Math, Sorting | Linear Scan Top-3 Max & Bottom-2 Min | O(n) | O(1) |
@@ -155,7 +157,7 @@ Solutions are organized as:
 | Stack | 1 |
 | Hash Table | 1 |
 | Two Pointers | 1 |
-| Dynamic Programming | 4 |
+| Dynamic Programming | 5 |
 | Math | 11 |
 | Prefix Sum | 1 |
 
@@ -202,10 +204,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 42     |
+| 🟢 Easy   | 43     |
 | 🟡 Medium | 9      |
 | 🔴 Hard   | 0      |
-| **Total**  | **51** |
+| **Total**  | **52** |
 
 ---
 
