@@ -25,7 +25,8 @@ dsa/
 │   │   ├── 1979_Find_Greatest_Common_Divisor_of_Array.cpp
 │   │   ├── 2996_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum.cpp
 │   │   ├── 3731_Find_Missing_Elements.cpp
-│   │   └── 3895_Count_Digit_Appearances.cpp
+│   │   ├── 3895_Count_Digit_Appearances.cpp
+│   │   └── 3069_Distribute_Elements_Into_Two_Arrays_I.cpp
 │   └── Medium/
 │       ├── 0053_Maximum_Subarray.cpp
 │       ├── 0054_Spiral_Matrix.cpp
@@ -76,7 +77,8 @@ dsa/
 │       ├── 0019_Remove_Nth_Node_From_End_of_List.cpp
 │       ├── 0061_Rotate_List.cpp
 │       ├── 0142_Linked_List_Cycle_II.cpp
-│       └── 0237_Delete_Node_in_a_Linked_List.cpp
+│       ├── 0237_Delete_Node_in_a_Linked_List.cpp
+│       └── 1721_Swapping_Nodes_in_a_Linked_List.cpp
 └── README.md
 ```
 
@@ -100,6 +102,7 @@ Solutions are organized as:
 | 83 | [Remove Duplicates from Sorted List](LinkedList/Easy/0083_Remove_Duplicates_from_Sorted_List.cpp) | 🟢 Easy | Linked List, Two Pointers | Iterative In-Place Skip | O(n) | O(1) |
 | 141 | [Linked List Cycle](LinkedList/Easy/0141_Linked_List_Cycle.cpp) | 🟢 Easy | Linked List, Two Pointers | Floyd's Cycle Detection | O(n) | O(1) |
 | 142 | [Linked List Cycle II](LinkedList/Medium/0142_Linked_List_Cycle_II.cpp) | 🟡 Medium | Linked List, Two Pointers | Floyd's Two-Phase Detection | O(n) | O(1) |
+| 1721 | [Swapping Nodes in a Linked List](LinkedList/Medium/1721_Swapping_Nodes_in_a_Linked_List.cpp) | 🟡 Medium | Linked List, Two Pointers | Fast & Slow Two-Pointer Value Swap | O(n) | O(1) |
 | 203 | [Remove Linked List Elements](LinkedList/Easy/0203_Remove_Linked_List_Elements.cpp) | 🟢 Easy | Linked List, Recursion | Iterative with Dummy Head | O(n) | O(1) |
 | 206 | [Reverse Linked List](LinkedList/Easy/0206_Reverse_Linked_List.cpp) | 🟢 Easy | Linked List, Recursion | Iterative Three-Pointer Reversal | O(n) | O(1) |
 | 234 | [Palindrome Linked List](LinkedList/Easy/0234_Palindrome_Linked_List.cpp) | 🟢 Easy | Linked List, Two Pointers | Fast & Slow + In-Place Reversal | O(n) | O(1) |
@@ -140,6 +143,7 @@ Solutions are organized as:
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](Math/Easy/3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.cpp) | 🟢 Easy | Math, String | String Manipulation | O(d) | O(d) |
 | 3731 | [Find Missing Elements](Arrays/Easy/3731_Find_Missing_Elements.cpp) | 🟢 Easy | Array, Hash Table | Range Scan with Linear Search | O(k*n) | O(k) |
 | 3895 | [Count Digit Appearances](Arrays/Easy/3895_Count_Digit_Appearances.cpp) | 🟢 Easy | Array, Math | Digit Extraction | O(n*d) | O(1) |
+| 3069 | [Distribute Elements Into Two Arrays I](Arrays/Easy/3069_Distribute_Elements_Into_Two_Arrays_I.cpp) | 🟢 Easy | Array, Simulation | Greedy Simulation | O(n) | O(n) |
 | 884 | [Uncommon Words from Two Sentences](Strings/Easy/0884_Uncommon_Words_from_Two_Sentences.cpp) | 🟢 Easy | String, Hash Table | Frequency Map | O(n+m) | O(k) |
 | 2996 | [Smallest Missing Integer Greater Than Sequential Prefix Sum](Arrays/Easy/2996_Smallest_Missing_Integer_Greater_Than_Sequential_Prefix_Sum.cpp) | 🟢 Easy | Array, Hash Table | Hash Set + Prefix Sum | O(n) | O(n) |
 | 1290 | [Convert Binary Number in a Linked List to Integer](LinkedList/Easy/1290_Convert_Binary_Number_in_a_Linked_List_to_Integer.cpp) | 🟢 Easy | Linked List, Math | Base-2 Horner's Accumulation | O(n) | O(1) |
@@ -151,9 +155,9 @@ Solutions are organized as:
 
 | Topic | Count |
 |-------|-------|
-| Arrays | 18 |
+| Arrays | 19 |
 | Strings | 8 |
-| Linked List | 12 |
+| Linked List | 13 |
 | Stack | 1 |
 | Hash Table | 1 |
 | Two Pointers | 1 |
@@ -204,10 +208,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 43     |
-| 🟡 Medium | 9      |
+| 🟢 Easy   | 44     |
+| 🟡 Medium | 10     |
 | 🔴 Hard   | 0      |
-| **Total**  | **52** |
+| **Total**  | **54** |
 
 ---
 
