@@ -52,7 +52,8 @@ dsa/
 │   │   ├── 3345_Smallest_Divisible_Digit_Product_I.cpp
 │   │   ├── 3536_Maximum_Product_of_Two_Digits.cpp
 │   │   ├── 3658_GCD_of_Odd_and_Even_Sums.cpp
-│   │   └── 3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.cpp
+│   │   ├── 3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.cpp
+│   │   └── 3622_Check_Divisibility_by_Digit_Sum_and_Product.cpp
 │   └── Medium/
 │       └── 0877_Stone_Game.cpp
 ├── Stack/
@@ -143,6 +144,7 @@ Solutions are organized as:
 | 3282 | [Reach End of Array With Max Score](Arrays/Medium/3282_Reach_End_of_Array_With_Max_Score.cpp) | 🟡 Medium | Array, Greedy | Greedy Running Maximum | O(n) | O(1) |
 | 3658 | [GCD of Odd and Even Sums](Math/Easy/3658_GCD_of_Odd_and_Even_Sums.cpp) | 🟢 Easy | Math, Number Theory | Mathematical Observation | O(1) | O(1) |
 | 3754 | [Concatenate Non-Zero Digits and Multiply by Sum I](Math/Easy/3754_Concatenate_Non_Zero_Digits_and_Multiply_by_Sum_I.cpp) | 🟢 Easy | Math, String | String Manipulation | O(d) | O(d) |
+| 3622 | [Check Divisibility by Digit Sum and Product](Math/Easy/3622_Check_Divisibility_by_Digit_Sum_and_Product.cpp) | 🟢 Easy | Math | Digit Extraction | O(d) | O(1) |
 | 3731 | [Find Missing Elements](Arrays/Easy/3731_Find_Missing_Elements.cpp) | 🟢 Easy | Array, Hash Table | Range Scan with Linear Search | O(k*n) | O(k) |
 | 3895 | [Count Digit Appearances](Arrays/Easy/3895_Count_Digit_Appearances.cpp) | 🟢 Easy | Array, Math | Digit Extraction | O(n*d) | O(1) |
 | 3069 | [Distribute Elements Into Two Arrays I](Arrays/Easy/3069_Distribute_Elements_Into_Two_Arrays_I.cpp) | 🟢 Easy | Array, Simulation | Greedy Simulation | O(n) | O(n) |
@@ -164,7 +166,7 @@ Solutions are organized as:
 | Hash Table | 1 |
 | Two Pointers | 1 |
 | Dynamic Programming | 5 |
-| Math | 11 |
+| Math | 12 |
 | Prefix Sum | 1 |
 
 ---
@@ -210,10 +212,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 45     |
+| 🟢 Easy   | 46     |
 | 🟡 Medium | 10     |
 | 🔴 Hard   | 0      |
-| **Total**  | **55** |
+| **Total**  | **56** |
 
 ---
 
