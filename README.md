@@ -17,6 +17,7 @@ dsa/
 │   │   ├── 0066_Plus_One.cpp
 │   │   ├── 0121_Best_Time_to_Buy_and_Sell_Stock.cpp
 │   │   ├── 0136_Single_Number.cpp
+│   │   ├── 0169_Majority_Element.cpp
 │   │   ├── 0268_Missing_Number.cpp
 │   │   ├── 0628_Maximum_Product_of_Three_Numbers.cpp
 │   │   ├── 1260_Shift_2D_Grid.cpp
@@ -110,6 +111,7 @@ Solutions are organized as:
 | 234 | [Palindrome Linked List](LinkedList/Easy/0234_Palindrome_Linked_List.cpp) | 🟢 Easy | Linked List, Two Pointers | Fast & Slow + In-Place Reversal | O(n) | O(1) |
 | 121 | [Best Time to Buy and Sell Stock](Arrays/Easy/0121_Best_Time_to_Buy_and_Sell_Stock.cpp) | 🟢 Easy | Array, DP, Greedy | Greedy Running Minimum | O(n) | O(1) |
 | 136 | [Single Number](Arrays/Easy/0136_Single_Number.cpp) | 🟢 Easy | Array, Bit Manipulation | XOR Bit Manipulation | O(n) | O(1) |
+| 169 | [Majority Element](Arrays/Easy/0169_Majority_Element.cpp) | 🟢 Easy | Array, Hash Table, Sorting | Boyer-Moore Voting Algorithm | O(n) | O(1) |
 | 268 | [Missing Number](Arrays/Easy/0268_Missing_Number.cpp) | 🟢 Easy | Array, Bit Manipulation, Math | XOR Bit Manipulation | O(n) | O(1) |
 | 231 | [Power of Two](Math/Easy/0231_Power_of_Two.cpp) | 🟢 Easy | Math, Bit Manipulation | Bitwise AND Trick | O(1) | O(1) |
 | 1323 | [Maximum 69 Number](Math/Easy/1323_Maximum_69_Number.cpp) | 🟢 Easy | Math, Greedy | Greedy — First 6 to 9 | O(d) | O(d) |
@@ -159,7 +161,7 @@ Solutions are organized as:
 
 | Topic | Count |
 |-------|-------|
-| Arrays | 19 |
+| Arrays | 20 |
 | Strings | 9 |
 | Linked List | 13 |
 | Stack | 1 |
@@ -212,10 +214,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 46     |
+| 🟢 Easy   | 47     |
 | 🟡 Medium | 10     |
 | 🔴 Hard   | 0      |
-| **Total**  | **56** |
+| **Total**  | **57** |
 
 ---
 
