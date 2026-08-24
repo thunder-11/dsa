@@ -19,6 +19,7 @@ dsa/
 │   │   ├── 0136_Single_Number.cpp
 │   │   ├── 0169_Majority_Element.cpp
 │   │   ├── 0268_Missing_Number.cpp
+│   │   ├── 0414_Third_Maximum_Number.cpp
 │   │   ├── 0628_Maximum_Product_of_Three_Numbers.cpp
 │   │   ├── 1260_Shift_2D_Grid.cpp
 │   │   ├── 1464_Maximum_Product_of_Two_Elements_in_an_Array.cpp
@@ -113,6 +114,7 @@ Solutions are organized as:
 | 136 | [Single Number](Arrays/Easy/0136_Single_Number.cpp) | 🟢 Easy | Array, Bit Manipulation | XOR Bit Manipulation | O(n) | O(1) |
 | 169 | [Majority Element](Arrays/Easy/0169_Majority_Element.cpp) | 🟢 Easy | Array, Hash Table, Sorting | Boyer-Moore Voting Algorithm | O(n) | O(1) |
 | 268 | [Missing Number](Arrays/Easy/0268_Missing_Number.cpp) | 🟢 Easy | Array, Bit Manipulation, Math | XOR Bit Manipulation | O(n) | O(1) |
+| 414 | [Third Maximum Number](Arrays/Easy/0414_Third_Maximum_Number.cpp) | 🟢 Easy | Array, Sorting | Linear Scan Top-3 Distinct Max | O(n) | O(1) |
 | 231 | [Power of Two](Math/Easy/0231_Power_of_Two.cpp) | 🟢 Easy | Math, Bit Manipulation | Bitwise AND Trick | O(1) | O(1) |
 | 1323 | [Maximum 69 Number](Math/Easy/1323_Maximum_69_Number.cpp) | 🟢 Easy | Math, Greedy | Greedy — First 6 to 9 | O(d) | O(d) |
 | 9 | [Palindrome Number](Math/Easy/0009_Palindrome_Number.cpp) | 🟢 Easy | Math, Two Pointers | String Conversion + Two Pointers | O(d) | O(d) |
@@ -161,7 +163,7 @@ Solutions are organized as:
 
 | Topic | Count |
 |-------|-------|
-| Arrays | 20 |
+| Arrays | 21 |
 | Strings | 9 |
 | Linked List | 13 |
 | Stack | 1 |
@@ -214,10 +216,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 47     |
+| 🟢 Easy   | 48     |
 | 🟡 Medium | 10     |
 | 🔴 Hard   | 0      |
-| **Total**  | **57** |
+| **Total**  | **58** |
 
 ---
 
