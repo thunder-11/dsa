@@ -85,7 +85,8 @@ dsa/
 │       └── 1721_Swapping_Nodes_in_a_Linked_List.cpp
 ├── Trees/
 │   └── Easy/
-│       └── 0094_Binary_Tree_Inorder_Traversal.cpp
+│       ├── 0094_Binary_Tree_Inorder_Traversal.cpp
+│       └── 0144_Binary_Tree_Preorder_Traversal.cpp
 └── README.md
 ```
 
@@ -102,6 +103,7 @@ Solutions are organized as:
 | # | Problem | Difficulty | Topic | Approach | Time | Space |
 |---|---------|------------|-------|----------|------|-------|
 | 94 | [Binary Tree Inorder Traversal](Trees/Easy/0094_Binary_Tree_Inorder_Traversal.cpp) | 🟢 Easy | Tree, DFS, Recursion | Recursive DFS Inorder | O(n) | O(h) |
+| 144 | [Binary Tree Preorder Traversal](Trees/Easy/0144_Binary_Tree_Preorder_Traversal.cpp) | 🟢 Easy | Tree, DFS, Recursion | Recursive DFS Preorder | O(n) | O(h) |
 | 1 | [Two Sum](Arrays/Easy/0001_Two_Sum.cpp) | 🟢 Easy | Array, Hash Table | Hash Map (One-Pass) | O(n) | O(n) |
 | 13 | [Roman to Integer](Strings/Easy/0013_Roman_to_Integer.cpp) | 🟢 Easy | String, Math | Linear Scan with Lookahead | O(n) | O(1) |
 | 19 | [Remove Nth Node From End of List](LinkedList/Medium/0019_Remove_Nth_Node_From_End_of_List.cpp) | 🟡 Medium | Linked List, Two Pointers | Fast & Slow Pointers (One Pass) | O(L) | O(1) |
@@ -176,7 +178,7 @@ Solutions are organized as:
 | Dynamic Programming | 5 |
 | Math | 12 |
 | Prefix Sum | 1 |
-| Trees | 1 |
+| Trees | 2 |
 
 ---
 
@@ -221,10 +223,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 49     |
+| 🟢 Easy   | 50     |
 | 🟡 Medium | 10     |
 | 🔴 Hard   | 0      |
-| **Total**  | **59** |
+| **Total**  | **60** |
 
 ---
 
