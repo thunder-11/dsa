@@ -86,6 +86,7 @@ dsa/
 ├── Trees/
 │   └── Easy/
 │       ├── 0094_Binary_Tree_Inorder_Traversal.cpp
+│       ├── 0100_Same_Tree.cpp
 │       └── 0144_Binary_Tree_Preorder_Traversal.cpp
 └── README.md
 ```
@@ -103,6 +104,7 @@ Solutions are organized as:
 | # | Problem | Difficulty | Topic | Approach | Time | Space |
 |---|---------|------------|-------|----------|------|-------|
 | 94 | [Binary Tree Inorder Traversal](Trees/Easy/0094_Binary_Tree_Inorder_Traversal.cpp) | 🟢 Easy | Tree, DFS, Recursion | Recursive DFS Inorder | O(n) | O(h) |
+| 100 | [Same Tree](Trees/Easy/0100_Same_Tree.cpp) | 🟢 Easy | Tree, DFS, BFS, Binary Tree | Recursive DFS | O(min(N,M)) | O(min(H1,H2)) |
 | 144 | [Binary Tree Preorder Traversal](Trees/Easy/0144_Binary_Tree_Preorder_Traversal.cpp) | 🟢 Easy | Tree, DFS, Recursion | Recursive DFS Preorder | O(n) | O(h) |
 | 1 | [Two Sum](Arrays/Easy/0001_Two_Sum.cpp) | 🟢 Easy | Array, Hash Table | Hash Map (One-Pass) | O(n) | O(n) |
 | 13 | [Roman to Integer](Strings/Easy/0013_Roman_to_Integer.cpp) | 🟢 Easy | String, Math | Linear Scan with Lookahead | O(n) | O(1) |
@@ -178,7 +180,7 @@ Solutions are organized as:
 | Dynamic Programming | 5 |
 | Math | 12 |
 | Prefix Sum | 1 |
-| Trees | 2 |
+| Trees | 3 |
 
 ---
 
@@ -223,10 +225,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 50     |
+| 🟢 Easy   | 51     |
 | 🟡 Medium | 10     |
 | 🔴 Hard   | 0      |
-| **Total**  | **60** |
+| **Total**  | **61** |
 
 ---
 
