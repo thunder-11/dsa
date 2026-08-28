@@ -41,6 +41,7 @@ dsa/
 │   │   ├── 0058_Length_of_Last_Word.cpp
 │   │   ├── 0125_Valid_Palindrome.cpp
 │   │   ├── 0344_Reverse_String.cpp
+│   │   ├── 0387_First_Unique_Character_in_a_String.cpp
 │   │   └── 0884_Uncommon_Words_from_Two_Sentences.cpp
 │   └── Medium/
 │       └── 0680_Valid_Palindrome_II.cpp
@@ -130,6 +131,7 @@ Solutions are organized as:
 | 20 | [Valid Parentheses](Stack/Easy/0020_Valid_Parentheses.cpp) | 🟢 Easy | String, Stack | Stack-Based Matching | O(n) | O(n) |
 | 125 | [Valid Palindrome](Strings/Easy/0125_Valid_Palindrome.cpp) | 🟢 Easy | String, Two Pointers | Filter + Two Pointers | O(n) | O(n) |
 | 344 | [Reverse String](Strings/Easy/0344_Reverse_String.cpp) | 🟢 Easy | Two Pointers, String | Two Pointers In-Place Swap | O(n) | O(1) |
+| 387 | [First Unique Character in a String](Strings/Easy/0387_First_Unique_Character_in_a_String.cpp) | 🟢 Easy | Hash Table, String, Counting | Hash Map Frequency Count | O(n) | O(1) |
 | 258 | [Add Digits](Math/Easy/0258_Add_Digits.cpp) | 🟢 Easy | Math, Simulation | Iterative Digit Sum | O(log n) | O(1) |
 | 26 | [Remove Duplicates from Sorted Array](Arrays/Easy/0026_Remove_Duplicates_from_Sorted_Array.cpp) | 🟢 Easy | Array, Two Pointers | Two Pointers (Slow & Fast) | O(n) | O(1) |
 | 27 | [Remove Element](Arrays/Easy/0027_Remove_Element.cpp) | 🟢 Easy | Array, Two Pointers | Two Pointers (Overwrite) | O(n) | O(1) |
@@ -172,7 +174,7 @@ Solutions are organized as:
 | Topic | Count |
 |-------|-------|
 | Arrays | 21 |
-| Strings | 9 |
+| Strings | 10 |
 | Linked List | 13 |
 | Stack | 1 |
 | Hash Table | 1 |
@@ -225,10 +227,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 51     |
+| 🟢 Easy   | 52     |
 | 🟡 Medium | 10     |
 | 🔴 Hard   | 0      |
-| **Total**  | **61** |
+| **Total**  | **62** |
 
 ---
 
