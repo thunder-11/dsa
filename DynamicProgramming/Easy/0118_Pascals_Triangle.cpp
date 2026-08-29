@@ -35,7 +35,6 @@ public:
 
         for (int i = 0; i < numRows; i++)
             result[i].resize(i + 1);
-
         for (int i = 0; i < numRows; i++) {
             for (int j = 0; j <= i; j++) {
                 if (j == 0 || j == i) {
