@@ -74,6 +74,7 @@ public:
             else if (s[i] == 'L') total += 50;
             i++;
         }
+        
         return total;  
     }
 };
