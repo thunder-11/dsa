@@ -88,7 +88,8 @@ dsa/
 │   └── Easy/
 │       ├── 0094_Binary_Tree_Inorder_Traversal.cpp
 │       ├── 0100_Same_Tree.cpp
-│       └── 0144_Binary_Tree_Preorder_Traversal.cpp
+│       ├── 0144_Binary_Tree_Preorder_Traversal.cpp
+│       └── 0145_Binary_Tree_Postorder_Traversal.cpp
 └── README.md
 ```
 
@@ -108,6 +109,7 @@ Solutions are organized as:
 | 94 | [Binary Tree Inorder Traversal](Trees/Easy/0094_Binary_Tree_Inorder_Traversal.cpp) | 🟢 Easy | Tree, DFS, Recursion | Recursive DFS Inorder | O(n) | O(h) |
 | 100 | [Same Tree](Trees/Easy/0100_Same_Tree.cpp) | 🟢 Easy | Tree, DFS, BFS, Binary Tree | Recursive DFS | O(min(N,M)) | O(min(H1,H2)) |
 | 144 | [Binary Tree Preorder Traversal](Trees/Easy/0144_Binary_Tree_Preorder_Traversal.cpp) | 🟢 Easy | Tree, DFS, Recursion | Recursive DFS Preorder | O(n) | O(h) |
+| 145 | [Binary Tree Postorder Traversal](Trees/Easy/0145_Binary_Tree_Postorder_Traversal.cpp) | 🟢 Easy | Tree, DFS, Recursion | Recursive DFS Postorder | O(n) | O(h) |
 | 1 | [Two Sum](Arrays/Easy/0001_Two_Sum.cpp) | 🟢 Easy | Array, Hash Table | Hash Map (One-Pass) | O(n) | O(n) |
 | 13 | [Roman to Integer](Strings/Easy/0013_Roman_to_Integer.cpp) | 🟢 Easy | String, Math | Linear Scan with Lookahead | O(n) | O(1) |
 | 19 | [Remove Nth Node From End of List](LinkedList/Medium/0019_Remove_Nth_Node_From_End_of_List.cpp) | 🟡 Medium | Linked List, Two Pointers | Fast & Slow Pointers (One Pass) | O(L) | O(1) |
@@ -183,7 +185,7 @@ Solutions are organized as:
 | Dynamic Programming | 5 |
 | Math | 12 |
 | Prefix Sum | 1 |
-| Trees | 3 |
+| Trees | 4 |
 
 ---
 
@@ -228,10 +230,10 @@ All solutions are written in **C++**.
 
 | Difficulty | Solved |
 |------------|--------|
-| 🟢 Easy   | 52     |
+| 🟢 Easy   | 53     |
 | 🟡 Medium | 10     |
 | 🔴 Hard   | 0      |
-| **Total**  | **62** |
+| **Total**  | **63** |
 
 ---
 
